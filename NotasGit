@@ -1,0 +1,25 @@
+-(echo "# proyectoAndresCampus01" >> README.md)
+
+- en la carpeta donde vamos a meter el repositorio darle 
+	->(git init)
+
+- (git add .)
+
+- (git commit -m "primer commit")
+
+- (git branch -m main)   
+	-> cambiamos el nombre de master a main
+	(git status) 
+		-> ver estado de donde estoy parado si en raiz  o una rama
+	
+- git remote add origin https://github.com/AndresAngarita10/proyectoAndresCampus01.git
+	->llamamos el repositorio el git desde lo principal
+	
+- hay que crear un token desde la pagina de GitHub
+	-> se genera y descarga desde la pagina de github
+	
+- git push -u origin main
+	->traerse la informacion de este repositorio
+	->Si da error hacer esto
+	git push -f https://github.com/AndresAngarita10/proyectoAndresCampus01.git main
+
