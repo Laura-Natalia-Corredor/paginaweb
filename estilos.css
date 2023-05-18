@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(253, 216, 167);
+  }
+  img {
+  width: auto;
+  height: 330px;
+  }
+  #Piscina{
+    font-size: 27px;
+  }
+  #loguito{
+    height: auto;
+  }
+  .card-text{
+    height: 130px;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .card-text {
+      font-size: 15px;
+    }
+   
+  }
+  @media screen and (max-width: 590px) {
+    img{
+      width: 380px;
+    }
+  }
